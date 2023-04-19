@@ -1,0 +1,94 @@
+.card-body {
+  margin: auto;
+  /* margin-top: 50px; */
+  border: 1px solid gray;
+  height: 470px;
+  width: 330px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.form-control {
+  padding: 0px 3px;
+  margin: 11px 19px;
+  font-size: 14px;
+}
+
+.form-head {
+  background-color: rgb(53, 110, 53);
+  color: white;
+  padding-left: 15px;
+  margin: 0px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding-bottom: 10px;
+}
+
+input[type=text], select {
+  width: 90%;
+  padding: 10px 15px;
+  margin: 7px 17px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 90%;
+  padding: 10px 15px;
+  margin: 7px 17px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 90%;
+  padding: 10px 15px;
+  margin: 7px 17px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  width: 90%;
+  padding: 10px 15px;
+  margin: 7px 17px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.gender{
+  width: 90%;
+  padding: 0px 3px;
+  margin: 2px 14px;
+  font-size: 14px;
+}
+
+#textarea{
+  width: 90%;
+  padding: 10px 15px;
+  margin: 7px 17px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.checkbox{
+  width: 90%;
+  padding: 0px 3px;
+  margin: 2px 11px;
+  font-size: 14px;
+}
+

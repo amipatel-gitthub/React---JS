@@ -1,0 +1,57 @@
+body {
+  font-family: arial;
+  background: #e0e0e0;
+}
+.hdr{
+  color: whitesmoke
+}
+.card-body {
+  width: 300px;
+
+  margin: 100px auto;
+  padding: 20px 50px 100px;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 38px;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+  background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.display-2 {
+  width: 55px;
+  color: black;
+  margin: 3px;
+  margin-bottom: 40px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.btn {
+  border: none;
+  -webkit-appearance: none;
+  font-size: 22px;
+  width: 140px;
+  height: 55px;
+  color: white;
+  background-color: #17a9a0;
+  border-radius: 33px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.card-body button:nth-of-type(2) {
+  background-color: #ae7617;
+}
+
+.abtn-clr{
+  background-color: white;
+  color: #333;
+  width: 200px;
+  height: 40px;
+}
+
+.card-body button:hover {
+  background: #333;
+  color: #e0e0e0;
+  border-radius: 38px;
+}

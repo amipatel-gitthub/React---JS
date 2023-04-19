@@ -1,0 +1,27 @@
+.main-box{
+    border: 1px solid #ccc;
+    height: 350px;
+    width: 550px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.output
+{
+    height: 55%;
+    width: 70%;
+    border: 1px double rgb(153, 149, 149);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.btn{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px double rgb(153, 149, 149);
+    /* margin-top: 40px; */
+    padding: 0px 3px;
+    margin: 42px 28px;
+}

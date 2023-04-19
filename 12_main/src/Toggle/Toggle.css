@@ -1,0 +1,46 @@
+.container{
+    background-color: rgb(92, 89, 89);
+    height: 350px;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+
+.tgl{
+    height: 293px;
+    width: 50px;
+    display: flex;
+    border-radius: 50px;
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    margin-top: 26px;
+    background: rgb(92, 89, 89);
+    box-shadow: inset 5px 5px 11px #6e6e6e,
+                inset -5px -5px 11px #ffffff;
+}
+
+.crl{
+    height: 40px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: rgb(92, 89, 89); 
+}
+.tgl-1{
+    background-color: yellow;
+}
+.clr-1{
+    margin-top: 200px;
+}
+.clr-2{
+    margin-top: 230px;
+}
+.clr-3{
+    margin-top: 130px;
+}
+.clr-4{
+    margin-top: 45px;
+}
+.clr-5{
+    margin-top: 73px;
+}

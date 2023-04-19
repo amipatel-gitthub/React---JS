@@ -1,0 +1,18 @@
+/* .card-body {
+  height: 230px;
+  width: 500px;
+  border: 1px solid #ccc;
+} */
+.rd {
+  height: 230px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+.row b {
+  color: brown;
+  margin-left: 10px;
+}

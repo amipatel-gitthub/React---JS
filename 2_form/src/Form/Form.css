@@ -1,0 +1,13 @@
+.main-box {
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 20px;
+  background: #fffdfd;
+  box-shadow: 9px 9px 22px #a7a3a3, -9px -9px 22px #fff9f9;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.header p{
+    color:#a7a3a3;
+}

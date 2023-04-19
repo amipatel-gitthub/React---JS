@@ -1,0 +1,13 @@
+.bbc{
+    margin: auto;
+    margin-top: 50px;
+    border: 1px dotted blue;
+    height: 150px;
+    width: 200px;
+}
+
+.abc{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+{
+  "Pr_Data": [
+      {
+          "id": 1,
+          "Name": "Potatos",
+          "Price": "₹30.00",
+          "Qty": "2500",
+          "Category" : "vegetable",
+          "image" : "./img/potato.jpg"
+      },
+
+      {
+          "id": 2,
+          "Name": "Butter",
+          "Price": "₹450.00",
+          "Qty": "30",
+          "Category" : "dairy product",
+          "image" : "./img/butter.png"
+      },
+      {
+          "id": 3,
+          "Name": "Avacado",
+          "Price": "₹400.00",
+          "Qty": "20",
+          "Category" : "fruit",
+          "image" : "./img/avacado.png"
+      },
+      {
+          "id": 4,
+          "Name": "Apple Red",
+          "Price": "₹50.00",
+          "Qty": "70",
+          "Category" : "fruit",
+          "image" : "./img/apple.jpg"
+      }   
+  ]
+}

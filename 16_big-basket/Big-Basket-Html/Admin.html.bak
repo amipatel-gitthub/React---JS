@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Home.css">
+
+</head>
+
+<body>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   
+
+      <nav class="navbar navbar-expand-lg bg-info ">
+            <div class="container ">
+              <a class="navbar-brand text-white" href="#"><b> <i class="bi bi-cart-fill"></i>Big Basket</b></a>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="Home.html"><b>Home</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="Product.html"><b>Product</b></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="d-flex flex-row-reverse bd-highlight">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link  text-white" aria-current="page" href="Admin.html"><b>Admin</b></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="Login.html"><b>Login</b></a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+      </nav>
+      
+      <div class="container mt-lg-5">
+        <h3 class="text-info">Product Details</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia
+          quam a elit tristique eleifend. Suspendisse id interdum urna, id
+          maximus massa. Orci varius natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus.{" "}
+        </p>
+       
+          <a href="New_Product.html"  class="bg-info-subtle  text-decoration-none border-primary">Create New </a>
+
+
+          <div class="d-flex justify-content-center">
+            <div class="row mt-3">
+              <div class="col ">
+                <div class="table border ">
+                  <thead class="bg-dark text-white ">
+                    <th>Id</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Category</th>
+
+                    <th>Action</th>
+                  </thead>
+
+                  <tbody>
+                    {user.map((value, index) => {
+                      return (
+                        <tr key={index}>
+                          <td>{value.id}</td>
+                          <td>
+                            <!-- <img src={value.image} style={myStyle} /> -->
+                          </td>
+                          <td>{value.Name}</td>
+                          <td>{value.Price}</td>
+                          <td>{value.Qty}</td>
+                          <td>{value.Category}</td>
+                          {/* <td><img src={value.image}  class="w-10" /></td> */}
+                          <td>
+                            <Link
+                              to="/UpdateProduct"
+                              class="link-primary border bg-success p-1 text-white text-decoration-none"
+                            >
+                              Update <i class="bi bi-cloud-plus-fill"></i>
+                            </Link>
+                           <a href="Update_Product.html">Update</a>
+                           
+                              Delete <i class="bi bi-trash"></i>
+                            </a>
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+</body>
+
+</html>

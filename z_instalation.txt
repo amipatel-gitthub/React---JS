@@ -1,0 +1,28 @@
+npx create-react-app my-app
+
+
+cd my-app
+
+npm i bootstrap@5.3.0-alpha1
+
+npm i bootstrap-icons
+
+npm i axios
+
+npm i react-router-dom
+
+npm i json-server
+
+code .
+
+npm start
+
+
+npx json-server --watch user.json --port 3004
+
+
+
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
